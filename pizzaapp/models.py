@@ -9,10 +9,10 @@ class CustomerModel(models.Model):
 	phoneno = models.CharField(max_length = 10)
 
 class OrderModel(models.Model):
-	username = models.CharField()
-	phoneno = models.CharField()
-	address = models.CharField()
-	ordereditems = models.CharField()
-	status = models.CharField()
+	username = models.CharField(max_length=255)
+	phoneno = models.CharField(max_length=255)
+	address = models.CharField(max_length=255)
+	ordereditems = models.CharField(max_length=255)
+	status = models.CharField(max_length=255)
 
 
