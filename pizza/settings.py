@@ -25,7 +25,9 @@ SECRET_KEY = 'bqf83_mdn-$o8_xib8)tduwoekz@k^z-^%j=$k++p5$py(vvu('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "pizzadelivery-webapp.herokuapp.com",
+]
 
 
 # Application definition
